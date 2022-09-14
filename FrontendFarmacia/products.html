@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <script src="./products.js"></script>
+    <link rel="stylesheet" href="styleProducts.css">
+</head>
+<body>
+    <h1>Productos</h1>
+    <div id="products-list-content"></div>
+    <hr>
+    <h2>Formulario Para Editar Producto</h2>
+    <form id="fetch-edit-frm">
+        <label for="form-name">Nombre</label>
+        <input type="text" name="name" id="form-name">
+
+        <label for="form-purchase">Precio Compra</label>
+        <input type="number" step="0.01" name="purchase" id="form-purchase">
+
+        <label for="form-sale">Precio Venta</label>
+        <input type="number" step="0.01" name="sale" id="form-sale">
+
+        <label for="form-stock">Stock</label>
+        <input type="number" name="stock" id="form-stock"><br>
+
+        <label for="form-presentation">Presentacion</label>
+        <input type="text" name="presentation" id="form-presentation">
+        
+        <label for="form-action">Accion Terapeutica</label>
+        <input type="text" name="action" id="form-action">
+
+        <label for="Image">Image</label>
+        <input type="file" name="image" id="Image">
+    </form>
+</body>
+</html>

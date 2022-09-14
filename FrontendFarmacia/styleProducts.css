@@ -1,0 +1,66 @@
+body {
+    background-color:  #eee;
+    margin:0;
+  }
+  h1 {
+   
+      margin-bottom: 50px;
+      text-transform: uppercase;
+      color: #55acee;
+      text-align: center;
+      background: #faf8f8;
+  }
+  h2 {
+   
+    margin-bottom: 50px;
+    text-transform: uppercase;
+    color: #55acee;
+    text-align: center;
+    font:  sans-serif ;
+}
+  
+  .card-block {
+      font-size: 1em;
+      margin: 0;
+      padding: 1em;
+      border-radius: .28571429rem;
+      box-shadow: 0 1px 3px 0 #bbbbca, 0 0 0 1px #a8a8d4;
+      margin:1em; background: #faf8f8;
+       
+  }
+  .card{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  button {
+    margin-top: auto;
+    background-color: rgb(115, 235, 115);
+    font: 120% sans-serif ;
+    border-radius: 10%;
+
+  }
+  .descripcion {
+    background: white;
+    font: 90% sans-serif ;
+    padding: 1em;
+    font-weight: bolder;
+    background: #ddf5f4d5;
+  }
+#products-list-content
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.borrar{
+    background-color: rgb(216, 70, 70);
+}
+form input[type='text'], form input[type='number']{
+    padding: 7px 6px;
+    border: 1px solid #CED5D7;
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 5px 0;
+}
+#fetch-edit-frm{
+    text-align: center;
+    font: 90% sans-serif ;
+}

@@ -1,0 +1,99 @@
+#laboratories-list-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 3%;
+    
+
+}
+.card{
+    font-size: 1em;
+      margin: 0;
+      padding: 0;
+      border-radius: .28571429rem;
+      box-shadow: 0 1px 3px 0 #bbbbca, 0 0 0 1px #a8a8d4;
+      margin:1em; background: #faf8f8;
+}
+#laboratories-list-content  div
+{
+    padding: 3%;
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+img
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+    background: white;
+}
+h1 {
+    margin-bottom: 50px;
+      text-transform: uppercase;
+      color: #55acee;
+      text-align: center;
+      background: #faf8f8;
+  }
+body{
+    background-color:  #eee;
+    margin:0;
+    text-align: center;
+}
+.descripcion {
+    background: white;
+    font: 90% sans-serif ;
+    padding: 1em;
+    font-weight: bolder;
+    background: #ddf5f4d5;
+    border-radius: 10%;
+  }
+  button{
+    font: 100% sans-serif ;
+    border-radius: 10%;
+  }
+  .borrar{
+    background-color: rgb(216, 70, 70);
+}
+.editar {
+    margin-top: auto;
+    background-color: rgb(115, 235, 115);
+
+  }
+button:hover{
+    background: #edfcff;
+    background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #edfcff 0%,#cfe6ef 100%);
+}
+button:active{
+    background: #cfe6ef;
+    background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+    background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
+}
+.productos{
+    background-color: rgba(34, 255, 237, 0.582);
+}
+#fetch-btn-crear{
+    border: 1px solid #CED5D7;
+    box-shadow:0 0 0 3px #EEF5F7;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px white;
+ 
+    background: #e4f1f6; 
+    background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);
+}
+#fetch-btn-crear:hover{
+    background: #edfcff;
+    background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #edfcff 0%,#cfe6ef 100%);
+}
+#fetch-btn-crear:active{
+    background: #cfe6ef;
+    background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+    background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
+}

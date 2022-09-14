@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+/* sets whole page to Open Sans and sets background color */
+body {
+  font-family: 'Open Sans', 'sans-serif';
+  
+}
+
+h1 {
+  color: #55acee;
+  text-align: center;
+  font-size: 36px;
+  padding-top: 10px;
+}
+
+#login-frm, #createUser-frm {
+  text-align: center;
+  color: #55acee;
+}
+
+/* username and password fields */
+input:not([type="button"]), button[type="button"] {
+  font-family: 'Open Sans', 'sans-serif';
+  border: 1px solid #acacac;
+  color: #666;
+  opacity: .7;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 250px;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  font-size: 16px;
+}
+
+input:focus:not([type="button"]) {
+  border: 1px solid #55acee;
+  opacity: 1;
+  width: 320px;
+  outline: none;
+  color: #55acee;
+}
+input[type="button"]:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 0px 0px 0px;
+}
+
+input[type="button"]:hover {
+  background-color: #6FC6FF;
+}
